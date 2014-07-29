@@ -36,7 +36,7 @@ main(int argc, char *argv[]) {
    int rc;
 
    if (argc != 2) {
-      fprintf(stderr, "usage: dwarf <file>\n"); 
+      fprintf(stderr, "usage: %s <file>\n", argv[0]); 
       exit(1);
    }
 
